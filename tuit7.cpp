@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 // commenting something
 using namespace std;
 
@@ -8,7 +9,6 @@ int add(int a,int b){
     cout<<"Ussing Function with 2 arguments "<<endl;
     return a+b;
 }
-
 int add(int a, int b, int c){
     cout<<"using Function with 3 argments "<<endl;
    return a+b+c;
@@ -31,3 +31,7 @@ cout<<"The sum of cubeid "<<volume(4,5,5)<<endl;
 cout<<"The sum of cube "<<volume(7)<<endl;
     return 0;
 }
+After add new line we hwve to do
+1. git add .
+2. git commit -m "something"
+3. git push
